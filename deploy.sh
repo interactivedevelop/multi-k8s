@@ -1,6 +1,6 @@
 docker build -t systtek/multi-client:latest -t systtek/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t systtek/multi-server:latest -t systtek/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t systtek/multi-worker:latest -t systtek/multi-worler:$SHA -f ./worker/Dockerfile ./worker
+docker build -t systtek/multi-worker:latest -t systtek/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push systtek/multi-client:latest
 docker push systtek/multi-server:latest
 docker push systtek/multi-worker:latest
